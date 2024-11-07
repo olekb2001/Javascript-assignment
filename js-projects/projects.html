@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Assignment</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="nav-container" role="navigation">
+            <img src="/pictures/Gamehub-logo.png" alt="logo">
+            <ul class="nav-links">
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/js-projects/projects.html">MY OTHER JS PROJECTS</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">TERMS & CONDITIONS</a></li>
+            </ul>
+            <button class="hamburger-menu" aria-label="Toggle navigation">
+                &#9776;
+            </button>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <aside class="sidebar-left">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus natus dolorem labore itaque eligendi possimus veniam repellendus delectus fuga tempore! Cum quia dolorum molestiae. Amet officiis porro eveniet facilis ipsa?
+        </aside>
+        <main class="main-content">
+            <!-- content -->
+            <h1 class="checkout">MY Projects</h1>
+            <section class="jsprojects-container">
+                <div class="pokeAPI">
+                <h1 class="pkm-header">Pokemon Search</h1>
+                <section id="search-area">
+                    <input type="text" id="pokemon-input" placeholder="Enter Pokémon name" />
+                    <button id="search-button">Search</button>
+                </section>
+                <section id="pokemon-details">
+                    <!-- Pokémon data will go here -->
+                </section>
+                </div>
+                <!-- calender start -->
+                <section class="calender-body">
+                    <h1 class="calender-header">Calender</h1>
+                    <div class="calendar-container">
+                        <p class="month-name" id="month-name">April</p>
+                        <p class="day-name" id="day-name">Friday</p>
+                        <p class="day-number" id="day-number">20</p>
+                        <p class="year" id="year">2020</p>
+                        <p class="time-day" id="time-of-day">11.11</p>
+                        <p class="time-day" id="seconds-day">1sec</p>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <aside class="sidebar-right" id="shopping-container">
+           <!-- nothing yet -->
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gamehub. All rights reserved.</p>
+    </footer>
+    <script src="pokeAPI.js"></script>
+    <script src="calender.js"></script>
+    <script src=""></script>
+    <script src=""></script>
+    <script src=""></script>
+    <script src=""></script>
+</body>
+</html>
