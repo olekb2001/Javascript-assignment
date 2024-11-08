@@ -43,7 +43,7 @@ function displayProducts(products) {
             <img src="${product.image.url}" alt="${product.image.alt}">
             <p class="tag">Tags: ${product.tags.join(', ')}</p>
             <p class="tag">Favorite: ${product.favorite ? 'Yes' : 'No'}</p>
-            <button class="view-details" onclick="location.href='products/product-detail.html?id=${product.id}'">View Details</button>
+            <button class="view-details" onclick="location.href='product-detail.html?id=${product.id}'">View Details</button>
         `;
 
         container.appendChild(productDiv);

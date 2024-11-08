@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Assignment</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -16,10 +16,10 @@
 <body>
     <header>
         <nav class="nav-container" role="navigation">
-            <img src="/pictures/Gamehub-logo.png" alt="logo">
+            <img src="pictures/Gamehub-logo.png" alt="logo">
             <ul class="nav-links">
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/js-projects/projects.html">MY OTHER JS PROJECTS</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="projects.html">MY OTHER JS PROJECTS</a></li>
                 <li><a href="#">ABOUT US</a></li>
                 <li><a href="#">TERMS & CONDITIONS</a></li>
             </ul>
@@ -34,29 +34,17 @@
         </aside>
         <main class="main-content">
             <!-- content -->
-            <h1 class="checkout">Checkout</h1>
-            <section id="checkout-items"></section>
+            <h1 class="checkout">Order Confirmed</h1>
+            <section id="order-confirmation-container"></section>
             <!-- items -->
         </main>
         <aside class="sidebar-right" id="shopping-container">
-            <!-- your credit card details -->
-            <h2 id="payment-details">Payment Details</h2>
-            <form id="payment-form">
-                <label for="card-number">Card Number</label>
-                <input type="text" id="card-number" name="card-number" required>
-                <label for="card-holder">Card Holder</label>
-                <input type="text" id="card-holder" name="card-holder" required>
-                <label for="expiry-date">Expiry Date</label>
-                <input type="text" id="expiry-date" name="expiry-date" required>
-                <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" required>
-                <button id="confirm-purchase" type="button">CONFIRM PURCHASE</button>
-            </form>
+           <!-- nothing yet -->
         </aside>
     </div>
     <footer>
         <p>&copy; 2024 Gamehub. All rights reserved.</p>
     </footer>
-    <script src="/js/checkout.js"></script>
+    <script src="js/confirmation.js"></script>
 </body>
 </html>

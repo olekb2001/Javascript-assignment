@@ -37,6 +37,6 @@ document.getElementById('confirm-purchase').addEventListener('click', () => {
     shoppingCart = []; 
     localStorage.removeItem('cart'); 
     // Redirect to confirmation page
-    window.location.href = '/checkout/confirmation/confirmation.html';
+    window.location.href = 'confirmation.html';
 });
 displayCheckoutItems();

@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     proceedCheckoutButton.addEventListener('click', () => {
-        window.location.href = '/checkout/checkout.html'; 
+        window.location.href = 'checkout.html'; 
     });
 });
 
